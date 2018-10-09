@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 161.412 s <<< FAILURE! - in TestSuite
+LoginTest(com.TestCases.LoginTestCase)  Time elapsed: 29.2 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for element to be clickable: By.cssSelector: section.form__group.-button.\2b textCenter > button (tried for 10 second(s) with 500 milliseconds interval)
+	at com.TestCases.LoginTestCase.LoginTest(LoginTestCase.java:34)
+
